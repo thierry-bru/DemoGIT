@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-menu ul li{
+    margin: 0% 10%;
+}
