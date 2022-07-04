@@ -1,14 +1,16 @@
 .div1
 {
     border:solid green;
-    width: 1080px; 
+    width: 100%; 
     height:100px;
 }
 
 .banniere
 {
-    width:1080px;
-    height:250px;
+    width:100%;
+    height:100px;
+    background-image: url('image/banniere.jpg');
+    background-size: cover;
 }
 
 .H1
