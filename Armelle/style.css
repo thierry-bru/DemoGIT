@@ -1,5 +1,10 @@
-body
-{color:white;
-background-color: black;
-font-size: large;
+body{
+    color:white;
+    background-color: black;
+    font-size: large;
+}
+
+h1{
+border-style: dashed;
+text-align: center;
 }
