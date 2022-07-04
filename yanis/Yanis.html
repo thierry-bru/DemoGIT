@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        nav,
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
+
 <body>
     <header class="header">
-        <div class="titre-page">
             <h1>TITRE DE LA PAGE</h1>
-            <img src="https://picsum.photos/200" alt="Logo">
-        </div>
+            <img src="https://picsum.photos/200" alt="Logo" class="logo">
         <nav>
             <ul>
-                <li>acceuil</li>
-                <li>menu</li>
-                <li>profil</li>
+                <a href="#">
+                    <li>acceuil</li>
+                </a>
+                <a href="#">
+                    <li>menu</li>
+                </a>
+                <a href="#">
+                    <li>profil</li>
+                </a>
             </ul>
         </nav>
     </header>
     <section>
-        <p>Texte de bienvue : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, illum.</p>
+        <p>Texte de bienvue : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, illum. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Dolores eum odio neque voluptatum earum ipsam labore debitis rem
+            officiis id, illo soluta, voluptate praesentium illum recusandae voluptatibus? Minima, tempora ab.</p>
         <aside>
-            <img src="https://picsum.photos/200" alt="random image">
             <img src="https://picsum.photos/200" alt="random image">
             <img src="https://picsum.photos/200" alt="random image">
             <img src="https://picsum.photos/200" alt="random image">
@@ -32,10 +63,17 @@
     </section>
     <footer>
         <ul>
-            <li>droits d'auteur</li>
-            <li>crédits</li>
-            <li>politique</li>
+            <a href="#">
+                <li>droits</li>
+            </a>
+            <a href="#">
+                <li>crédits</li>
+            </a>
+            <a href="#">
+                <li>politique</li>
+            </a>
         </ul>
     </footer>
 </body>
+
 </html>
