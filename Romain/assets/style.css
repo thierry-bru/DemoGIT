@@ -4,9 +4,7 @@ header{
     
 }
 
-/*******************************************************
-********************** NAVBAR **************************
-*******************************************************/
+/********************* NAVBAR *************************/
 
 nav{
     display: flex;
@@ -24,4 +22,11 @@ nav{
 .nav-menu ul li{
     margin: 0% 10%;
     text-transform: uppercase;
+}
+
+.nav-menu ul li a{
+    color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px; 
 }
