@@ -1,10 +1,17 @@
-.div1{
+.div1
+{
     border:solid green;
-    width:"100px"; 
-    height:"100px";
+    width: 1080px; 
+    height:100px;
 }
 
-.banniere{
-    width:"1080px";
-     height:"300px";
+.banniere
+{
+    width:1080px;
+    height:250px;
+}
+
+.H1
+{
+    text-align: center ;
 }
