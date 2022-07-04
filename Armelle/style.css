@@ -1,13 +1,14 @@
 body{
     color:white;
     background-color: black;
-    font-size: large;
+    font-size: 22px;
 }
 
 h1{
 border-style: dashed;
 text-align: center;
 }
+
 div{
     text-align: center;
 }
