@@ -8,9 +8,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
+        body {
+            background-color: rgb(196, 171, 171);
+        }
+
+        a:-webkit-any-link {
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    
         header {
             display: flex;
-            width: 100%;
             justify-content: space-between;
             align-items: center;
         }
@@ -39,6 +49,7 @@
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
             <h1>TITRE DE LA PAGE</h1>
             <img src="https://picsum.photos/200" alt="Logo" class="logo">
@@ -56,6 +67,7 @@
             </ul>
         </nav>
     </header>
+    <!-- section -->
     <section>
         <p>Texte de bienvue : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, illum. Lorem, ipsum dolor
             sit amet consectetur adipisicing elit. Dolores eum odio neque voluptatum earum ipsam labore debitis rem
@@ -66,6 +78,7 @@
             <img src="https://picsum.photos/200" alt="random image">
         </aside>
     </section>
+    <!-- footer -->
     <footer>
         <ul>
             <a href="#">
