@@ -1,11 +1,27 @@
+header{
+    background-color: rgb(19, 20, 21);
+    padding: 15px 0px;
+    
+}
+
+/*******************************************************
+********************** NAVBAR **************************
+*******************************************************/
+
 nav{
     display: flex;
 }
 
-.nav-menu ul{
-    list-style-type: none;
+.nav-menu{
     display: flex;
+    float: right;
+}
+.nav-menu ul{
+    display: flex;
+    list-style-type: none;
+    
 }
 .nav-menu ul li{
     margin: 0% 10%;
+    text-transform: uppercase;
 }
