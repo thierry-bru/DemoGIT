@@ -1,0 +1,20 @@
+a{
+    background-color: blueviolet;
+    color: white;
+    font-size: small;
+    padding: 10px 10px 10px 10px;
+    
+}
+nav{
+    background-color: white;
+    background-position: center;
+    
+}
+body{
+    background-color: rgb(234, 205, 195);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.marge{
+    background-color: white;
+}
