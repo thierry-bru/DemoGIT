@@ -1,4 +1,12 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
-</style>
-font-family: 'Gulzar', serif;
+
+.florent
+ {font-family: 'Gulzar', serif;}
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+     
+body{
+    background-color: aqua;
+    font-family: 'Splash', cursive;
+    font-size: x-large;
+}

@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+html{
+    background-color: rgb(32, 29, 26);
+}
+body{
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-family: 'Roboto Mono', monospace
+}
+
+/* header*/
+
+.logo{
+    width: 55px;
+}
+
+header{
+    background-color: rgba(201, 218, 218, 0.459);
+    padding: 15px;
+    text-align: center;
+}
+
+
+#titre{
+    
+    font-size: 50px;
+}
+
+
+
+/*navbar*/
+
+
+nav .categorie {
+	display: inline-block;
+	vertical-align: top;
+	background-color:rgb(32, 29, 26) ;
+    font-size: 30px;
+    
+	
+}
+
+nav .categorie ul {
+	display:none;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+
+
+
+nav .categorie:hover ul{
+
+	display:block;
+	background:blanchedalmond;
+    color: rgb(32, 29, 26);
+
+}
+
+
+nav h3 {
+	display: block;
+	margin: 0;
+    padding-right: 15px;
+	font-size: 15px;
+	color: blanchedalmond;
+	width: 100%;
+}
+nav a {
+    display: block;
+    margin: 0;
+    padding: 0;
+	font-size: 20px;
+	color: rgb(32, 29, 26);
+	text-decoration: none;
+	width: 100%;
+}
+
+/*main*/
+main{
+    text-align: center;
+}
+
+/* section 1*/
+#sect1 img {
+    width: 20%;
+    border: 3px solid rgb(32, 29, 26);
+    border-radius: 8px;
+}
+
+div a{
+    text-decoration: none;
+    color:rgb(99, 22, 241);
+}
+
+#sect2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;;
+    
+}
+#sect2 div{
+    border: 5px solid rgb(32, 29, 26);
+    margin:20px 0 20px 5px;
+    border-radius: 8px;
+}
+aside img{
+    width: 50%;
+    border-radius: 135px;
+}
+
+
+
+a:hover {
+    background-color: rgb(87, 77, 67);
+    color: blanchedalmond;
+}
+
+/*footer*/
