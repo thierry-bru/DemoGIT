@@ -94,17 +94,19 @@ h2{
 #column1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    align-items: center;
     color: #8eda84;
-
+    margin-left: 15px;
     width: 300px;
 }
 
 #images{
     margin: 20px;
     display: flex;
-    justify-content:space-between;
-    align-items: flex-start;
+    justify-content:center;
     
-    
+    background-color: black;
     
 }
+
+
