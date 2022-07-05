@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(229, 208, 188);
+}
+
+.titre
+{
+    display: flex;
+    background-color: white;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+    padding-inline-start: 20px;
+}
+
+.body
+{
+    background-color: white;
+    margin:20px;
+    filter: drop-shadow(10px 10px 4px purple);
+}
+
+.li
+{
+    background-color: rgb(192, 65, 192);
+    font-size: 20px oblique;
+    color: wheat;
+    padding: 5px;
+    margin-left: 3px;
+    
+}
+
+.présentation
+{
+    display: block;
+    margin: 50px;
+}
+.img1
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 0ch solid;
+    float: left;
+}
+
+.h1
+{
+    margin-left: 300px;
+}
+
+.p1
+{
+    margin-left: 300px;
+    margin-right: 400px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.p2
+{
+    display: block;
+    font-size: 22px;
+}
+
+.img2
+{ 
+    display: flex;
+    margin-left: 20px ;
+    padding-left: 20px;
+}
+
+.foot
+{
+    text-align: center;
+}
