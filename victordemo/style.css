@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: ':Impact';
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body{
     background-color: black;
     
@@ -63,11 +66,12 @@ h2{
 }     
 
 #conteneur{    
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Bebas Neue', cursive;
     text-align: justify;
     margin-top: 10px;
     margin-left: 25px;
     margin-bottom: 20px;
+    color: #1ab605;
 
    width: 1300px;
    -webkit-columns: 4 auto;
