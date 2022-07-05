@@ -1,3 +1,4 @@
+/*--------HEADER----------*/
 .logo{
     margin-top: -100px;
     background-color: aqua;
@@ -11,6 +12,7 @@
     font-family: 'Josefin Sans', sans-serif;
     
 }
+/*--------BODY----------*/
 main > p{
     color: blue;
     text-align: center;
