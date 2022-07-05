@@ -1,0 +1,35 @@
+h1 
+{
+  font-family: "Dancing Script regular", cursive
+}
+h1
+{
+  border: 3px double
+}
+p, h2
+{
+  color:blue;
+}
+a:hover
+{
+  text-decoration: underline;
+  color:rgb(240, 10, 152)
+}
+a:visited
+{
+  color:aqua
+}
+
+tr:nth-child(2n)
+{
+  font-style: italic;
+}
+h2
+{
+  text-decoration: underline;
+  text-align: center;
+}
+.introduction
+{
+
+}
