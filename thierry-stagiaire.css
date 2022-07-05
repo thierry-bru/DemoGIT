@@ -1,1 +1,23 @@
-font-family: "Dancing Script regular"
+h1 
+{
+  font-family: "Dancing Script regular", cursive
+}
+
+p, h2
+{
+  color:blue;
+}
+
+tr:nth-child(2n)
+{
+  font-style: italic;
+}
+h2
+{
+  text-decoration: underline;
+  text-align: center;
+}
+.introduction
+{
+
+}
