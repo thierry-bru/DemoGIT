@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camping de Sandrine</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link href="style.css" rel="stylesheet">
+                 <title>Camping de Sandrine</title>
+    </head>
 <body>
-    <header style=background-color:aqua>
-        <img src="ImagesCamping/campinglogo.jpg" alt="logo du camping">
-        <marquee behavior="slide" direction="left"><h1><center>Bienvenue au Camping Paradis</center></h1></marquee>
+    <header>
+                    <!--
+                        <marquee behavior="slide" direction="left">-->
+                 <h1 class="titre_big">Bienvenue au Camping Paradis</h1> <!--</marquee>-->
+        <img class="logo" src="ImagesCamping/campinglogo.jpg" alt="logo du camping">
+         
     </header>
     <hr>
-    <br><br><br><br>
+
     <main>
-        <p><center>
+        <p>
             Bienvenue au Camping Paradis, nous sommes ravie de vous accueillir sur notre nouveau site.
-            Nous vous accueillons tous les jours à partir de 14h.
-        </center></p>
+            Nous vous accueillons chaleureusement tous les jours à partir de 14h.
+        </p>
     </main>
-    <div>
-        <center><img border="5px" src="ImagesCamping/PhotoCamping.jpg" alt="Photo Tente" width="500px" 
-            height="400px">
-        </center>
-    </div>
+        <div class="photo">
+            <img  src="ImagesCamping/PhotoCamping.jpg" alt="Photo Tente" > Nos Emplacements Tentes
+            <img  src="ImagesCamping/camping_car.jpg" alt="Photo CC" > Nos Emplacement Camping Car
+            <img  src="ImagesCamping/cabane.jpg" alt="Photo Cabane" > Nos Cabanes
+            <img  src="ImagesCamping/mobilhome.jpg" alt="Photo Mobilhome" > Nos Locations Mobil-home
+        </div>
     <nav>
         <h3><u>Menu :</u></h3>
 
@@ -38,8 +44,9 @@
         </a>
     </nav>
     <br><br><br><br>
+</body>
     <footer>
-            <p style=background-color:grey><em>Mentions Légales:
+            <p><em>Mentions Légales:
                 
                 Ce site est édité par le groupe Camping.com / La France du Nord au Sud Société par action simplifiée au capital de 40 000 euros
 
@@ -55,5 +62,5 @@
                 Numéro de téléphone de contact : 0 892 702 340 (0,25€/min)
                 Adresse Courriel de contact : serviceclients@maeva.com</em></p>
     </footer>
-</body>
+
 </html>
