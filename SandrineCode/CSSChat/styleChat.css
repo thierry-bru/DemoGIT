@@ -1,21 +1,58 @@
+nav{
+    background-color: white;
+    margin-left: 2%;
+}
 a{
     background-color: blueviolet;
     color: white;
     font-size: small;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     
 }
-nav{
-    background-color: white;
-    background-position: center;
-    
-}
+
 body{
     background-color: rgb(234, 205, 195);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+
 }
-.marge{
+.cadre_main{
     background-color: white;
-    
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-top: 1%;
+       
+}
+
+.Photo1{
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.box{
+    background-color: white;
+}
+.sous_cadre{
+    margin-left: 2%;
+}
+.Photo2{
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.Photo3{
+    width: 300px;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  .Photo{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
 }
