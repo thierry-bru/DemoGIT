@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
 header
 {
     background-image: url(img/banniere.jpg);
@@ -13,6 +16,7 @@ h1
     text-align: center;
     border-radius: 2em;
     border: 3px solid white;
+    font-family: 'metamorphous', cursive;
     font-style: oblique;
 }
 .menu2
@@ -60,6 +64,7 @@ footer
     border-radius: 2em;
     font-style: italic;
     font-size: 22px;
+    font-family: 'Playfair Display SC', serif;
     text-align: justify;
     color: white;
 }

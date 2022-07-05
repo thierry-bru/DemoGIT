@@ -4,7 +4,11 @@ h1
 }
 h1
 {
-  border: 3px double
+  border: 3px double 
+}
+h1
+{
+  background-color: aquamarine;
 }
 p, h2
 {
